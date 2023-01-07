@@ -18,7 +18,7 @@ pip install -r requirements.txt
 Create a file called `secret.py` for establishing a connection between Slack and Notion. It is important to note that this file should not be uploaded to a public repository.
 
 ```python
-SLACK_BOT_TOKEN = "xoxb-YOUR_SLACK_BOT_TOKEN}"
+SLACK_BOT_TOKEN = "xoxb-YOUR_SLACK_BOT_TOKEN"
 SLACK_APP_TOKEN = "xapp-YOUR_SLACK_APP_TOKEN"
 NOTION_API_TOKEN = "secret_YOUR-NOTION-API-TOKEN"
 DATABASE_ID = "NOTION_DATABASE_ID"
